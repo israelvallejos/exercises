@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeTracker", "CollegeTracker\CollegeTracker.csproj", "{844B84B4-99B2-43C7-9EE5-4CAE1AEE4BCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeTrackerCore", "modules\CollegeTrackerCore.csproj", "{60EB762A-DE90-4CFD-BDD3-0306FCAF7837}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{904B01A1-F603-4FCC-A54E-FEAAC16F07CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "New Folder", "New Folder", "{44ECD031-DADD-4F60-849D-E5A6E4AD3636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{F78C8848-6D81-4561-A3EC-3D75A3823ED1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{844B84B4-99B2-43C7-9EE5-4CAE1AEE4BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{844B84B4-99B2-43C7-9EE5-4CAE1AEE4BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{844B84B4-99B2-43C7-9EE5-4CAE1AEE4BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{844B84B4-99B2-43C7-9EE5-4CAE1AEE4BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60EB762A-DE90-4CFD-BDD3-0306FCAF7837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EB762A-DE90-4CFD-BDD3-0306FCAF7837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EB762A-DE90-4CFD-BDD3-0306FCAF7837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EB762A-DE90-4CFD-BDD3-0306FCAF7837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F78C8848-6D81-4561-A3EC-3D75A3823ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78C8848-6D81-4561-A3EC-3D75A3823ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78C8848-6D81-4561-A3EC-3D75A3823ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78C8848-6D81-4561-A3EC-3D75A3823ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBAEF1D1-4FD8-4E30-87EE-1E571DBE4BAA}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60EB762A-DE90-4CFD-BDD3-0306FCAF7837} = {904B01A1-F603-4FCC-A54E-FEAAC16F07CC}
+		{F78C8848-6D81-4561-A3EC-3D75A3823ED1} = {44ECD031-DADD-4F60-849D-E5A6E4AD3636}
+	EndGlobalSection
+EndGlobal
